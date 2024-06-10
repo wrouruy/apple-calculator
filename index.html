@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="wrap">
+        <input type="text" id="monitor">
+        <div class="mainContainer">
+        <div id="Six">
+            <button id="bracketOpen" class="blackGray">(</button>
+            <button id="twoND" class="blackGray">2 <p id="miniTop">nd</p></button>
+            <button id="" class="blackGray">1/x</button>
+            <button id="" class="blackGray">x!</button>
+            <button id="Rad" class="blackGray"><span id="smallText">Rad</span></button>
+        </div>
+        <div id="Five">
+            <button id="bracketClose" class="blackGray">)</button>
+            <button id="square" class="blackGray">x <p id="miniTop">2</p></button>
+            <button id="" class="blackGray"><p id="miniTop">2</p>√<p id="miniDown">x</p></button>
+            <button id="sin" class="blackGray"><span id="smallText">sin</span></button>
+            <button id="sinh" class="blackGray"><span id="smallText">sinh</span></button>
+        </div>
+        <div id="Four">
+            <button id="mr" class="blackGray">mc</button>
+            <button id="cube" class="blackGray">x <p id="miniTop">3</p></button>
+            <button id="" class="blackGray"><p id="miniTop">3</p>√<p id="miniDown">x</p></button>
+            <button id="cos" class="blackGray"><span id="smallText">cos</span></button>
+            <button id="cosh" class="blackGray"><span id="smallText">cosh</span></button>
+        </div>
+        <div id="Three">
+            <button id="mr" class="blackGray">m+</button>
+            <button id="powY" class="blackGray">x <p id="miniTop">y</p></button>
+            <button id="" class="blackGray"><p id="miniTop">y</p>√<p id="miniDown">x</p></button>
+            <button id="tan" class="blackGray"><span id="smallText">tan</span></button>
+            <button id="tanh" class="blackGray"><span id="smallText">tanh</span></button>
+        </div>
+        <div id="Two">
+            <button id="mr" class="blackGray">m-</button>
+            <button id="eX" class="blackGray">e <p id="miniTop">x</p></button>
+            <button id="ln" class="blackGray"><span id="smallText">ln</span></button>
+            <button id="e" class="blackGray">e</button>
+            <button id="pi" class="blackGray">&pi;</button>
+        </div>
+        <div id="One">
+            <button id="mr" class="blackGray">mr</button>
+            <button id="tenX" class="blackGray">10 <p id="miniTop">x</p></button>
+            <button id="logTen" class="blackGray"><span id="smallText">log <p id="miniDown">10</p></span></button>
+            <button id="EE" class="blackGray"><span id="smallText">EE</span></button>
+            <button id="Rand" class="blackGray"><span id="smallText">Rand</span></button>
+        </div>
+        
+        <div class="calcContainer">
+            
+            <div class="row">
+                <button id="clearBtn" class="gray">C</button>
+                <button id="plmnBtn" class="gray">&plusmn;</button>
+                <button id="percentBtn" class="gray">%</button>
+                <button id="divBtn" class="orange">&divide;</button>
+            </div>
+            <div class="row">
+                <button id="btn7" class="dark">7</button>
+                <button id="btn8" class="dark">8</button>
+                <button id="btn9" class="dark">9</button>
+                <button id="mulBtn" class="orange">&times;</button>
+            </div>
+            <div class="row">
+                <button id="btn4" class="dark">4</button>
+                <button id="btn5" class="dark">5</button>
+                <button id="btn6" class="dark">6</button>
+                <button id="diffBtn" class="orange">-</button>
+            </div>
+            <div class="row">
+                <button id="btn1" class="dark">1</button>
+                <button id="btn2" class="dark">2</button>
+                <button id="btn3" class="dark">3</button>
+                <button id="addBtn" class="orange">+</button>
+            </div>
+          
+            <div class="row">
+                <button id="btn0" class="big dark"><p id="zeroText">0</p></button>
+                <button id="btnDot" class="dark">.</button>
+                <button id="equBtn" class="orange">=</button>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
